@@ -1,12 +1,12 @@
-html{
+html {
   font-size: 10px;
-  font-family: "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+  font-family: 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
   /*html{} setting standard text size for whole document*/
   /*rem multiplys the font px setting i.e. 3.5 rem is 35px*/
-  /*font-family Start with the font you want, and end with a generic family (works left to      right) (to let the browser pick a similar font in the generic family, if no other fonts      are available)*/ 
+  /*font-family Start with the font you want, and end with a generic family (works left to      right) (to let the browser pick a similar font in the generic family, if no other fonts      are available)*/
 }
 
-body{
+body {
   font-size: 1.5rem;
   line-height: 1.5;
   text-align: center;
@@ -14,23 +14,20 @@ body{
   margin: 0;
 }
 
-.thin-silver-border{
+.thin-silver-border {
   border-color: #808080;
   border-width: 0.5px;
-  border-style: ;
-  border-radius: ;
-  background-color: rgb(255, 255, 255)
+  background-color: rgb(255, 255, 255);
   /*use percentages for a rounder border radius*/
   /*Decided not to use the Silver border, have left the Class defined in CSS incase i want to use it*/
 }
-
 
 h1 {
   color: #808080;
   font-size: 4rem;
 }
 
-h2{
+h2 {
   color: #808080;
   font-size: 1.5rem;
   margin: 0px;
@@ -61,15 +58,15 @@ h4 {
 }
 
 a {
-   color: #800080
-   /*this is to set the color for my anchor links*/
+  color: #800080;
+  /*this is to set the color for my anchor links*/
 }
 
 #main {
   margin: 20px 10px 20px 10px;
   padding: 10px;
   border-radius: 10px;
-  background-color: rgb(192,192,192,0.20);
+  background-color: rgb(192, 192, 192, 0.2);
 }
 
 @media (max-width: 460px) {
@@ -85,13 +82,12 @@ img {
   margin-left: auto;
   margin-right: auto;
   display: block;
-      }
+}
 
-#img-div{
-  background: #FFFFFF;
+#img-div {
+  background: #ffffff;
   padding: 10px;
   margin: 0px;
-  
 }
 
 #img-caption {
@@ -107,7 +103,7 @@ img {
   }
 }
 
-ul{
+ul {
   max-width: 600px;
   text-align: justify;
   line-height: 1.8;
@@ -120,10 +116,9 @@ ul{
   }
 }
 
-li{
+li {
   padding: 0px 10px 25px 10px;
 }
-
 
 @media (max-width: 460px) {
   li {
